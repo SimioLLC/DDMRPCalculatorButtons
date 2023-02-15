@@ -44,15 +44,9 @@ namespace DDMRPCalculatorButtons
             // This example code places some new objects from the Standard Library into the active model of the project.
             if (context.ActiveModel != null)
             {
-                var calcMaterials = context.ActiveModel.Tables["BufferZoneSizes"];
-                foreach (var importBinder in calcMaterials.ImportBindings)
+                if (context.ActiveModel != null)
                 {
-                    if (importBinder.Name.StartsWith("Buffer Zone Sizes Calculator"))
-                    {
-                        calcMaterials.ImportBindings.ActiveImportBinding = importBinder;
-                        calcMaterials.Import();
-                        MessageBox.Show("Buffer Zone Sizes Calculator Completed");
-                    }
+                    DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "BufferZoneSizes", "Buffer Zone Sizes Calculator");
                 }
             }
         }

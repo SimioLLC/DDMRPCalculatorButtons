@@ -44,15 +44,9 @@ namespace DDMRPCalculatorButtons
             // This example code places some new objects from the Standard Library into the active model of the project.
             if (context.ActiveModel != null)
             {
-                var calcMaterials = context.ActiveModel.Tables["QualifiedSpikeDemand"];
-                foreach (var importBinder in calcMaterials.ImportBindings)
+                if (context.ActiveModel != null)
                 {
-                    if (importBinder.Name.StartsWith("Qualified Spike Demand Calculator"))
-                    {
-                        calcMaterials.ImportBindings.ActiveImportBinding = importBinder;
-                        calcMaterials.Import();
-                        MessageBox.Show("Qualified Spike Demand Calculator Completed");
-                    }
+                    DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "QualifiedSpikeDemand", "Qualified Spike Demand Calculator");
                 }
             }
         }

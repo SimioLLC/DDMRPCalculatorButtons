@@ -44,15 +44,9 @@ namespace DDMRPCalculatorButtons
             // This example code places some new objects from the Standard Library into the active model of the project.
             if (context.ActiveModel != null)
             {
-                var calcMaterials = context.ActiveModel.Tables["Inventories"];
-                foreach (var importBinder in calcMaterials.ImportBindings)
+                if (context.ActiveModel != null)
                 {
-                    if (importBinder.Name.StartsWith("Decoupled Lead Times Calculator"))
-                    {
-                        calcMaterials.ImportBindings.ActiveImportBinding = importBinder;
-                        calcMaterials.Import();
-                        MessageBox.Show("Decoupled Lead Time Calculator Completed");
-                    }
+                    DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "Inventories", "Decoupled Lead Times Calculator");
                 }
             }
         }

@@ -44,16 +44,7 @@ namespace DDMRPCalculatorButtons
             // This example code places some new objects from the Standard Library into the active model of the project.
             if (context.ActiveModel != null)
             {
-                var calcMaterials = context.ActiveModel.Tables["AverageDailyUsage"];
-                foreach (var importBinder in calcMaterials.ImportBindings)
-                {
-                    if (importBinder.Name.StartsWith("Average Daily Usage Calculator"))
-                    {
-                        calcMaterials.ImportBindings.ActiveImportBinding = importBinder;
-                        calcMaterials.Import();
-                        MessageBox.Show("Average Daily Usage Calculator Completed");
-                    }
-                }
+                DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "AverageDailyUsage", "Average Daily Usage Calculator");
             }
         }
 
