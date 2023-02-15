@@ -17,7 +17,7 @@ namespace DDMRPCalculatorButtons
         /// </summary>
         public string Name
         {
-            get { return "Calc ADU"; }
+            get { return "Average Daily Usage"; }
         }
 
         /// <summary>
@@ -25,7 +25,7 @@ namespace DDMRPCalculatorButtons
         /// </summary>
         public string Description
         {
-            get { return "Calculate Average Daily Usage."; }
+            get { return "Calculates the average daily usage values for inventory items."; }
         }
 
         /// <summary>
@@ -59,12 +59,12 @@ namespace DDMRPCalculatorButtons
 
         public string TabName
         {
-            get { return "Content"; }
+            get { return "DDMRP"; }
         }
 
         public string GroupName
         {
-            get { return "DDMRP Tools"; }
+            get { return "Calculate"; }
         }
 
         #endregion
@@ -79,7 +79,7 @@ namespace DDMRPCalculatorButtons
         /// </summary>
         public string Name
         {
-            get { return "Calc DLTs"; }
+            get { return "Decoupled Lead Times"; }
         }
 
         /// <summary>
@@ -87,7 +87,7 @@ namespace DDMRPCalculatorButtons
         /// </summary>
         public string Description
         {
-            get { return "Calcualte Decoupled Lead Time."; }
+            get { return "Calculates the decoupled lead times for inventory items."; }
         }
 
         /// <summary>
@@ -124,12 +124,12 @@ namespace DDMRPCalculatorButtons
 
         public string TabName
         {
-            get { return "Content"; }
+            get { return "DDMRP"; }
         }
 
         public string GroupName
         {
-            get { return "DDMRP Tools"; }
+            get { return "Calculate"; }
         }
 
         #endregion
@@ -144,7 +144,7 @@ namespace DDMRPCalculatorButtons
         /// </summary>
         public string Name
         {
-            get { return "Calc Buffers"; }
+            get { return "Buffer Zone Sizes"; }
         }
 
         /// <summary>
@@ -152,7 +152,7 @@ namespace DDMRPCalculatorButtons
         /// </summary>
         public string Description
         {
-            get { return "Calculate Buffer Zone Sizes."; }
+            get { return "Calculates the buffer red, yellow, and green zone sizes for inventory items identified as decoupling points."; }
         }
 
         /// <summary>
@@ -189,12 +189,12 @@ namespace DDMRPCalculatorButtons
 
         public string TabName
         {
-            get { return "Content"; }
+            get { return "DDMRP"; }
         }
 
         public string GroupName
         {
-            get { return "DDMRP Tools"; }
+            get { return "Calculate"; }
         }
 
         #endregion
@@ -209,7 +209,7 @@ namespace DDMRPCalculatorButtons
         /// </summary>
         public string Name
         {
-            get { return "Calc QSD"; }
+            get { return "Qualified Spike Demand"; }
         }
 
         /// <summary>
@@ -217,7 +217,7 @@ namespace DDMRPCalculatorButtons
         /// </summary>
         public string Description
         {
-            get { return "Calculate Qualified Spike Demand."; }
+            get { return "Calculates the qualified spike demand values for inventory items identified as decoupling points."; }
         }
 
         /// <summary>
@@ -254,12 +254,12 @@ namespace DDMRPCalculatorButtons
 
         public string TabName
         {
-            get { return "Content"; }
+            get { return "DDMRP"; }
         }
 
         public string GroupName
         {
-            get { return "DDMRP Tools"; }
+            get { return "Calculate"; }
         }
 
         #endregion
