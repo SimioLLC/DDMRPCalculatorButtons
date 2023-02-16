@@ -160,7 +160,7 @@ namespace DDMRPCalculatorButtons
         /// </summary>
         public System.Drawing.Image Icon
         {
-            get { return Properties.Resources.Buffer_Zone_Sizes_1; }
+            get { return Properties.Resources.Buffer_Zone_Sizes_2; }
         }
 
         /// <summary>
