@@ -95,7 +95,7 @@ namespace DDMRPCalculatorButtons
         /// </summary>
         public System.Drawing.Image Icon
         {
-            get { return Properties.Resources.Decoupled_Lead_Times_1; }
+            get { return Properties.Resources.Decoupled_Lead_Times_2; }
         }
 
         /// <summary>
@@ -160,7 +160,7 @@ namespace DDMRPCalculatorButtons
         /// </summary>
         public System.Drawing.Image Icon
         {
-            get { return Properties.Resources.Buffer_Zone_Sizes_2; }
+            get { return Properties.Resources.Buffer_Zone_Sizes_1; }
         }
 
         /// <summary>
