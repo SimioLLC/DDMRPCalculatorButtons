@@ -33,7 +33,7 @@ namespace DDMRPCalculatorButtons
         /// </summary>
         public System.Drawing.Image Icon
         {
-            get { return Properties.Resources.Average_Daily_Usage_1; }
+            get { return Properties.Resources.Average_Daily_Usage_2; }
         }
 
         /// <summary>
