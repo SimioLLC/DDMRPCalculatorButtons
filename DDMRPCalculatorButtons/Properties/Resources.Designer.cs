@@ -63,6 +63,46 @@ namespace DDMRPCalculatorButtons.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Average_Daily_Usage_1 {
+            get {
+                object obj = ResourceManager.GetObject("Average_Daily_Usage_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Average_Daily_Usage_2 {
+            get {
+                object obj = ResourceManager.GetObject("Average_Daily_Usage_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Buffer_Zone_Sizes_1 {
+            get {
+                object obj = ResourceManager.GetObject("Buffer_Zone_Sizes_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Buffer_Zone_Sizes_2 {
+            get {
+                object obj = ResourceManager.GetObject("Buffer_Zone_Sizes_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CalcADU {
             get {
                 object obj = ResourceManager.GetObject("CalcADU", resourceCulture);
@@ -96,6 +136,46 @@ namespace DDMRPCalculatorButtons.Properties {
         internal static System.Drawing.Bitmap CalcQSD {
             get {
                 object obj = ResourceManager.GetObject("CalcQSD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Decoupled_Lead_Times_1 {
+            get {
+                object obj = ResourceManager.GetObject("Decoupled_Lead_Times_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Decoupled_Lead_Times_2 {
+            get {
+                object obj = ResourceManager.GetObject("Decoupled_Lead_Times_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Decoupled_Lead_Times_5 {
+            get {
+                object obj = ResourceManager.GetObject("Decoupled_Lead_Times_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Qualified_Spike_Demand {
+            get {
+                object obj = ResourceManager.GetObject("Qualified_Spike_Demand", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

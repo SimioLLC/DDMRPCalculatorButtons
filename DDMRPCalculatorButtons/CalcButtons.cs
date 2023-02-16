@@ -33,7 +33,7 @@ namespace DDMRPCalculatorButtons
         /// </summary>
         public System.Drawing.Image Icon
         {
-            get { return Properties.Resources.CalcADU; }
+            get { return Properties.Resources.Average_Daily_Usage_1; }
         }
 
         /// <summary>
@@ -95,7 +95,7 @@ namespace DDMRPCalculatorButtons
         /// </summary>
         public System.Drawing.Image Icon
         {
-            get { return Properties.Resources.CalcDLTs; }
+            get { return Properties.Resources.Decoupled_Lead_Times_1; }
         }
 
         /// <summary>
@@ -160,7 +160,7 @@ namespace DDMRPCalculatorButtons
         /// </summary>
         public System.Drawing.Image Icon
         {
-            get { return Properties.Resources.CalcBuffers; }
+            get { return Properties.Resources.Buffer_Zone_Sizes_1; }
         }
 
         /// <summary>
@@ -225,7 +225,7 @@ namespace DDMRPCalculatorButtons
         /// </summary>
         public System.Drawing.Image Icon
         {
-            get { return Properties.Resources.CalcQSD; }
+            get { return Properties.Resources.Qualified_Spike_Demand; }
         }
 
         /// <summary>

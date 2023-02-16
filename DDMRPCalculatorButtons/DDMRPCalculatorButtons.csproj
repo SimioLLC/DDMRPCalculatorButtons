@@ -70,6 +70,14 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Qualified Spike Demand.png" />
+    <None Include="Resources\Decoupled Lead Times 5.png" />
+    <None Include="Resources\Decoupled Lead Times 2.png" />
+    <None Include="Resources\Decoupled Lead Times 1.png" />
+    <None Include="Resources\Average Daily Usage 1.png" />
+    <None Include="Resources\Average Daily Usage 2.png" />
+    <None Include="Resources\Buffer Zone Sizes 1.png" />
+    <None Include="Resources\Buffer Zone Sizes 2.png" />
     <Content Include="Resources\CalcADU.png" />
     <None Include="Resources\CalcQSD.png" />
     <None Include="Resources\CalcBuffers.png" />
