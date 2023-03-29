@@ -290,7 +290,7 @@ namespace DDMRPCalculatorButtons
         /// </summary>
         public System.Drawing.Image Icon
         {
-            get { return Properties.Resources.calculator_f; }
+            get { return Properties.Resources.tool_calculator_refresh_32px; }
         }
 
         /// <summary>
