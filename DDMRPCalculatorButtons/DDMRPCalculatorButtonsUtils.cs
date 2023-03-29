@@ -13,7 +13,7 @@ namespace DDMRPCalculatorButtons
     internal static class DDMRPCalculatorButtonsUtils
     {
 
-        internal static void RunCalculator(IModel model, string tableName, string calculatorName)
+        internal static int RunCalculator(IModel model, string tableName, string calculatorName, bool showSuccessMessage)
         {
             var calcMaterials = model.Tables[tableName];
             if (calcMaterials != null)
@@ -26,12 +26,14 @@ namespace DDMRPCalculatorButtons
                         foundFlag = true;
                         calcMaterials.ImportBindings.ActiveImportBinding = importBinder;
                         calcMaterials.Import();
-                        MessageBox.Show(calculatorName + " Completed", "Success", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                        if (showSuccessMessage) MessageBox.Show(calculatorName + " Completed", "Success", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                        return 0;
                     }
                 }
                 if (foundFlag == false) MessageBox.Show(calculatorName + " not found", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else MessageBox.Show(tableName + " table not found", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            return -1;
         }
     }
 

@@ -70,6 +70,8 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\calculator_f.png" />
+    <None Include="Resources\calculator%4032px.png" />
     <None Include="Resources\Qualified Spike Demand.png" />
     <None Include="Resources\Decoupled Lead Times 5.png" />
     <None Include="Resources\Decoupled Lead Times 2.png" />
@@ -78,6 +80,11 @@
     <None Include="Resources\Average Daily Usage 2.png" />
     <None Include="Resources\Buffer Zone Sizes 1.png" />
     <None Include="Resources\Buffer Zone Sizes 2.png" />
+    <None Include="Resources\action_goto_last.png" />
+    <None Include="Resources\action_play.png" />
+    <None Include="Resources\button_blue_play.png" />
+    <None Include="Resources\button_rounded_blue_next.png" />
+    <None Include="Resources\calc.png" />
     <Content Include="Resources\CalcADU.png" />
     <None Include="Resources\CalcQSD.png" />
     <None Include="Resources\CalcBuffers.png" />

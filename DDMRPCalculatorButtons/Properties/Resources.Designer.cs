@@ -63,6 +63,26 @@ namespace DDMRPCalculatorButtons.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap action_goto_last {
+            get {
+                object obj = ResourceManager.GetObject("action_goto_last", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap action_play {
+            get {
+                object obj = ResourceManager.GetObject("action_play", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Average_Daily_Usage_1 {
             get {
                 object obj = ResourceManager.GetObject("Average_Daily_Usage_1", resourceCulture);
@@ -103,6 +123,36 @@ namespace DDMRPCalculatorButtons.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap button_blue_play {
+            get {
+                object obj = ResourceManager.GetObject("button_blue_play", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap button_rounded_blue_next {
+            get {
+                object obj = ResourceManager.GetObject("button_rounded_blue_next", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap calc {
+            get {
+                object obj = ResourceManager.GetObject("calc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CalcADU {
             get {
                 object obj = ResourceManager.GetObject("CalcADU", resourceCulture);
@@ -136,6 +186,26 @@ namespace DDMRPCalculatorButtons.Properties {
         internal static System.Drawing.Bitmap CalcQSD {
             get {
                 object obj = ResourceManager.GetObject("CalcQSD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap calculator_32px {
+            get {
+                object obj = ResourceManager.GetObject("calculator_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap calculator_f {
+            get {
+                object obj = ResourceManager.GetObject("calculator_f", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

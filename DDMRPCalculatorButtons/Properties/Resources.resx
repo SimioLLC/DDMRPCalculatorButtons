@@ -118,6 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="action_goto_last" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\action_goto_last.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="action_play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\action_play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Average_Daily_Usage_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Average Daily Usage 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -130,6 +136,15 @@
   <data name="Buffer_Zone_Sizes_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Buffer Zone Sizes 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="button_blue_play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_blue_play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_rounded_blue_next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_rounded_blue_next.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="CalcADU" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CalcADU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -141,6 +156,12 @@
   </data>
   <data name="CalcQSD" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CalcQSD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calculator_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calculator@32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calculator_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calculator_f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Decoupled_Lead_Times_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Decoupled Lead Times 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

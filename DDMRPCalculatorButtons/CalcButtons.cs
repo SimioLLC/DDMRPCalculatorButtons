@@ -44,7 +44,7 @@ namespace DDMRPCalculatorButtons
             // This example code places some new objects from the Standard Library into the active model of the project.
             if (context.ActiveModel != null)
             {
-                DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "AverageDailyUsage", "Average Daily Usage Calculator");
+                DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "AverageDailyUsage", "Average Daily Usage Calculator", true);
             }
         }
 
@@ -108,7 +108,7 @@ namespace DDMRPCalculatorButtons
             {
                 if (context.ActiveModel != null)
                 {
-                    DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "Inventories", "Decoupled Lead Times Calculator");
+                    DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "Inventories", "Decoupled Lead Times Calculator", true);
                 }
             }
         }
@@ -173,7 +173,7 @@ namespace DDMRPCalculatorButtons
             {
                 if (context.ActiveModel != null)
                 {
-                    DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "BufferZoneSizes", "Buffer Zone Sizes Calculator");
+                    DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "BufferZoneSizes", "Buffer Zone Sizes Calculator", true);
                 }
             }
         }
@@ -238,7 +238,76 @@ namespace DDMRPCalculatorButtons
             {
                 if (context.ActiveModel != null)
                 {
-                    DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "QualifiedSpikeDemand", "Qualified Spike Demand Calculator");
+                    DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "QualifiedSpikeDemand", "Qualified Spike Demand Calculator", true);
+                }
+            }
+        }
+
+        #endregion
+
+        #region IDesignAddInGuiDetails Members
+
+        public string CategoryName
+        {
+            get { return "Table Tools"; }
+        }
+
+        public string TabName
+        {
+            get { return "DDMRP"; }
+        }
+
+        public string GroupName
+        {
+            get { return "Calculate"; }
+        }
+
+        #endregion
+    }
+
+    internal class CalcAllButton : IDesignAddIn, IDesignAddInGuiDetails
+    {
+        #region IDesignAddIn Members
+
+        /// <summary>
+        /// Property returning the name of the add-in. This name may contain any characters and is used as the display name for the add-in in the UI.
+        /// </summary>
+        public string Name
+        {
+            get { return "Calculate All"; }
+        }
+
+        /// <summary>
+        /// Property returning a short description of what the add-in does.
+        /// </summary>
+        public string Description
+        {
+            get { return "Calculate All runs all the DDMRP calculators in the order of Average Daily Usage, Decoupled Lead Times, Buffer Zone Sizes and then Qualified Spike Demand."; }
+        }
+
+        /// <summary>
+        /// Property returning an icon to display for the add-in in the UI.
+        /// </summary>
+        public System.Drawing.Image Icon
+        {
+            get { return Properties.Resources.calculator_f; }
+        }
+
+        /// <summary>
+        /// Method called when the add-in is run.
+        /// </summary>
+        public void Execute(IDesignContext context)
+        {
+            // This example code places some new objects from the Standard Library into the active model of the project.
+            if (context.ActiveModel != null)
+            {
+                if (context.ActiveModel != null)
+                {
+                    int returnValue = DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "AverageDailyUsage", "Average Daily Usage Calculator", false);
+                    if (returnValue == 0) returnValue = DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "Inventories", "Decoupled Lead Times Calculator", false);
+                    if (returnValue == 0) returnValue = DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "BufferZoneSizes", "Buffer Zone Sizes Calculator", false);
+                    if (returnValue == 0) returnValue = DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "QualifiedSpikeDemand", "Qualified Spike Demand Calculator", false);
+                    if (returnValue == 0) MessageBox.Show("Calculate All Completed", "Success", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 }
             }
         }
