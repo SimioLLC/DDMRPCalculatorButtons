@@ -70,6 +70,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\tool-calculator-update%4032px.png" />
+    <None Include="Resources\tool-calculator-refresh%4032px.png" />
+    <None Include="Resources\reload_rotate.png" />
+    <None Include="Resources\refresh_update.png" />
     <None Include="Resources\calculator_f.png" />
     <None Include="Resources\calculator%4032px.png" />
     <None Include="Resources\Qualified Spike Demand.png" />
