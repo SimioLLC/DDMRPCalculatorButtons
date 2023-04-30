@@ -25,9 +25,17 @@ namespace DDMRPCalculatorButtons
                     {
                         foundFlag = true;
                         calcMaterials.ImportBindings.ActiveImportBinding = importBinder;
-                        calcMaterials.Import();
-                        if (showSuccessMessage) MessageBox.Show(calculatorName + " Completed", "Success", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                        return 0;
+                        var results = calcMaterials.Import();
+                        if (results.Complete == false)
+                        {
+                            MessageBox.Show(results.Message, tableName + " Calculator Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return -1;
+                        }
+                        else
+                        {
+                            if (showSuccessMessage) MessageBox.Show(calculatorName + " Completed", "Success", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                            return 0;
+                        }
                     }
                 }
                 if (foundFlag == false) MessageBox.Show(calculatorName + " not found", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
