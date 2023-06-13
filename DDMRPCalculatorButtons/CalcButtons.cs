@@ -108,7 +108,7 @@ namespace DDMRPCalculatorButtons
             {
                 if (context.ActiveModel != null)
                 {
-                    DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "Inventories", "Decoupled Lead Times Calculator", true);
+                    DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "DecoupledLeadTimes", "Decoupled Lead Times Calculator", true);
                 }
             }
         }
@@ -304,7 +304,7 @@ namespace DDMRPCalculatorButtons
                 if (context.ActiveModel != null)
                 {
                     int returnValue = DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "AverageDailyUsage", "Average Daily Usage Calculator", false);
-                    if (returnValue == 0) returnValue = DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "Inventories", "Decoupled Lead Times Calculator", false);
+                    if (returnValue == 0) returnValue = DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "DecoupledLeadTimes", "Decoupled Lead Times Calculator", false);
                     if (returnValue == 0) returnValue = DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "BufferZoneSizes", "Buffer Zone Sizes Calculator", false);
                     if (returnValue == 0) returnValue = DDMRPCalculatorButtonsUtils.RunCalculator(context.ActiveModel, "QualifiedSpikeDemand", "Qualified Spike Demand Calculator", false);
                     if (returnValue == 0) MessageBox.Show("Calculate All Completed", "Success", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
